@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "pmIcons"; /* Project id 2904211 */
+  src: url('iconfont.woff2?t=1635615435128') format('woff2'),
+       url('iconfont.woff?t=1635615435128') format('woff'),
+       url('iconfont.ttf?t=1635615435128') format('truetype');
+}
+
+.pmIcons {
+  font-family: "pmIcons" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pmIcons:before{
+  vertical-align: top !important;
+}
+
+.pm-user:before {
+  content: "\e7ae";
+}
+
+.pm-reloadtime:before {
+  content: "\e789";
+}
+
+.pm-deploymentunit:before {
+  content: "\e7d2";
+}
+
+.pm-barcode:before {
+  content: "\e7d7";
+}
+
+.pm-group:before {
+  content: "\e915";
+}
+

@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "/@/*": [
+        "./src/*"
+      ],
+      "@/*": [
+        "./src/*"
+      ],
+      "/@shared/*": [
+        "../shared/*"
+      ]
+    },
+    "lib": [
+      "ESNext",
+      "dom",
+      "dom.iterable"
+    ]
+  },
+  "include": [
+    "src/**/*.vue",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "types/**/*.d.ts",
+    "../../types/**/*.d.ts",
+    "../preload/types/electron-api.d.ts",
+    "../../node_modules/@types/wicg-mediasession/index.d.ts"
+  ]
+}

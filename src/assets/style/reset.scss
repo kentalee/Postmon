@@ -1,0 +1,31 @@
+@import "./vals.scss";
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-VariableFont_slnt,wght.ttf');
+}
+
+html, body, #app {
+  height: 100%;
+  background-color: white;
+}
+
+html{
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.full-Height {
+  height: 100%
+}
+
+.bgWhite {
+  background-color: white;
+}
+
+.bgWhiteL97P {
+  background-color: hsl(0deg, 0%, 97%);
+}
